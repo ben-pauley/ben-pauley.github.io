@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
 
 :root {
+  --body-font: "Rozha One";
   --header-height: 3rem;
   --font-semi: 600; /* semi-bold font-weight */
 }
 
 :root {
+  /* colors */
   --primary-color: #fe5e41;
   --secondary-color: #ffffff;
   --bg-color: #303036;
-  --hf-color: #00a878;
+  --header-footer-color: #00a878;
   --form-bg-color: #fffaff;
 }
 
 :root {
-  --body-font: "Rozha One";
+  /* font sizing */
   --h2-font-size: 1.25rem;
   --large-font-size: 2rem;
   --normal-font-size: 1rem;
@@ -61,7 +63,7 @@ img {
   max-width: 100%;
 }
 header {
-  background-color: var(--hf-color);
+  background-color: var(--header-footer-color);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
   left: 0;
   position: fixed;
@@ -113,7 +115,7 @@ header {
 }
 @media screen and (max-width: 768px) {
   #nav-menu {
-    background-color: var(--hf-color);
+    background-color: var(--header-footer-color);
     height: 100%;
     padding: 2rem;
     position: fixed;
@@ -266,7 +268,7 @@ header {
   color: var(--bg-color);
   opacity: 75%;
 }
-.contact-button {
+#contact-button {
   border: none;
   cursor: pointer;
   display: block;
@@ -278,11 +280,11 @@ header {
 
 /* footer */
 .footer {
-  background-color: var(--hf-color);
+  background-color: var(--header-footer-color);
   color: var(--secondary-color);
-  text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  text-align: center;
 }
 .footer-title {
   font-size: 2rem;
