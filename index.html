@@ -1,37 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Ben Pauley</h1>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Ben Pauley</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav body">
+        <div>
+          <a href="#home" class="nav-header">Ben Pauley</a>
+        </div>
+
+        <div id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>I am currently studying in the University of Birmingham Coding Boot Camp.</p>
-      <h1>Where I'm From</h1>
-      <p>Birmingham</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Watching films</p>
-      <h1>What's your dream job?</h1>
-      <p>Full stack web developer</p>
-      <h1>Where do you live?</h1>
-      <p>Blackwell</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>Because I am very passionate about problem solving and developing solutions to those problems using logic and code.</p>
-    </section>
 
-    <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/usernamehere">Github</a></li>
-        </ul>
+    <main>
+      <section class="home body" id="home">
+        <div class="home-data">
+          <h1 class="home-title">
+            Hi, I'm <span class="home-title-color">Ben</span>, <br />
+            a Full Stack <br />
+            Web Developer
+          </h1>
+
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vTr06AwbTw3JsIjaR6UoYLnP7XBgthpdgNgqfle5_qDV3ErFOXRrjfhtbthwWcroO-LQU46mdG9tZVd/pub"
+            target="_blank"
+            class="button"
+          >
+            View CV
+          </a>
+        </div>
+
+        <div class="home-social">
+          <a
+            href="https://github.com/ben-pauley"
+            target="_blank"
+            class="home-social-icon"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ben-pauley-a7b2b51ba/"
+            target="_blank"
+            class="home-social-icon"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="home-img">
+          <img src="assets/img/benCropped.png" alt="" />
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about-container body">
+          <div class="about-img">
+            <img src="assets/img/ben.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about-subtitle">I'm Ben</h2>
+            <p class="about-text">
+              I am a 21 year old full stack web developer with skills in HTML,
+              CSS, CSS Frameworks including Bootstrap, JavaScript, jQuery,
+              Node.js and mySQL. I have a huge love of film and music. I'm
+              currently studying at the University of Birmingham Coding Boot
+              Camp and in my free time, I love watching films and listening to
+              music. My passion for these arts has led me into a love of
+              physical media too, with my Blu-ray and record collections ever
+              expanding.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container body">
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/Popcornpedia-Project/"
+              target="_blank"
+            >
+              <img src="assets/img/project6.png" alt=""
+            /></a>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/assignment_6-weather_dashboard/"
+              target="_blank"
+            >
+              <img src="assets/img/project5.png" alt=""
+            /></a>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/assignment_5-work_day_scheduler/"
+              target="_blank"
+            >
+              <img src="assets/img/project4.png" alt=""
+            /></a>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/assignment_4-code_quiz/"
+              target="_blank"
+            >
+              <img src="assets/img/project3.png" alt=""
+            /></a>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/assignment_3-password_generator/"
+              target="_blank"
+            >
+              <img src="assets/img/project2.png" alt=""
+            /></a>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://ben-pauley.github.io/assignment_2-responsive_portfolio/"
+              target="_blank"
+            >
+              <img src="assets/img/project1.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-container body">
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Name" class="contact-input" />
+            <input type="mail" placeholder="Email" class="contact-input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input type="button" value="Send" class="contact-button button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-title">Ben Pauley</p>
+
+      <div class="footer-social">
+        <a
+          href="https://github.com/ben-pauley"
+          target="_blank"
+          class="footer-icon"
+        >
+          <i class="bx bxl-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ben-pauley-a7b2b51ba/"
+          target="_blank"
+          class="footer-icon"
+        >
+          <i class="bx bxl-linkedin"></i>
+        </a>
+      </div>
     </footer>
-</body>
 
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
