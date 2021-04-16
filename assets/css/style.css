@@ -241,13 +241,42 @@ header {
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   overflow: hidden;
+  position: relative;
 }
-.project-img img {
-  cursor: pointer;
-  transition: 1s;
+.image-overlay {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.25s;
+  width: 100%;
 }
-.project-img img:hover {
-  transform: scale(1.1);
+.image-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.image-overlay:hover {
+  opacity: 1;
+}
+.image-overlay:hover > * {
+  transform: translateY(0);
+}
+.overlay-title {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+.overlay-desc {
+  margin-top: 0.25em;
+  text-align: center;
 }
 
 /* contact */
@@ -291,7 +320,7 @@ header {
   margin-bottom: 2rem;
 }
 .footer-social {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .footer-icon {
   color: var(--secondary-color);
