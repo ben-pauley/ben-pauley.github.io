@@ -263,9 +263,6 @@ header {
   transform: translateY(20px);
   transition: transform 0.25s;
 }
-.image-overlay:hover {
-  opacity: 1;
-}
 .image-overlay:hover > * {
   transform: translateY(0);
 }
@@ -393,11 +390,16 @@ header {
   .about-img img {
     width: 300px;
   }
+
   .project-container {
     column-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  .image-overlay:hover {
+    opacity: 1;
+  }
+
   .contact-form {
     width: 360px;
   }
