@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3863fbf1.chunk.css",
+    "main.js": "/static/js/main.e6cb1108.chunk.js",
+    "main.js.map": "/static/js/main.e6cb1108.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.30c70b09.js",
+    "runtime-main.js.map": "/static/js/runtime-main.30c70b09.js.map",
+    "static/js/2.9fbd26a5.chunk.js": "/static/js/2.9fbd26a5.chunk.js",
+    "static/js/2.9fbd26a5.chunk.js.map": "/static/js/2.9fbd26a5.chunk.js.map",
+    "static/js/3.9d4fbba3.chunk.js": "/static/js/3.9d4fbba3.chunk.js",
+    "static/js/3.9d4fbba3.chunk.js.map": "/static/js/3.9d4fbba3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3863fbf1.chunk.css.map": "/static/css/main.3863fbf1.chunk.css.map",
+    "static/js/2.9fbd26a5.chunk.js.LICENSE.txt": "/static/js/2.9fbd26a5.chunk.js.LICENSE.txt",
+    "static/media/BenPauley_CV.c6214a4e.pdf": "/static/media/BenPauley_CV.c6214a4e.pdf",
+    "static/media/ben.efeb4d55.jpg": "/static/media/ben.efeb4d55.jpg",
+    "static/media/benCropped4.c08effa7.png": "/static/media/benCropped4.c08effa7.png",
+    "static/media/bookSearch.fc9a3092.png": "/static/media/bookSearch.fc9a3092.png",
+    "static/media/mouldyPotatoes.75e49979.png": "/static/media/mouldyPotatoes.75e49979.png",
+    "static/media/noteTaker.5e456d26.png": "/static/media/noteTaker.5e456d26.png",
+    "static/media/popcornpedia.a0632939.png": "/static/media/popcornpedia.a0632939.png",
+    "static/media/teamProfileGen.8f2c19a9.png": "/static/media/teamProfileGen.8f2c19a9.png",
+    "static/media/weatherDashboard.e4f94c5f.png": "/static/media/weatherDashboard.e4f94c5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30c70b09.js",
+    "static/js/2.9fbd26a5.chunk.js",
+    "static/css/main.3863fbf1.chunk.css",
+    "static/js/main.e6cb1108.chunk.js"
+  ]
+}
