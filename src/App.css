@@ -275,6 +275,11 @@ header {
   margin-top: 0.25em;
   text-align: center;
 }
+.repo-btn {
+  position: absolute;
+  right: -22px;
+  bottom: 0px;
+}
 
 /* contact */
 .contact-input {
