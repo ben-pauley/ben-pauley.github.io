@@ -13,10 +13,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <NavItem
-        links={["Home", "About", "Projects", "Contact"]}
-        toggle={menuRef}
-      />
+      <NavItem links={["Home", "About", "Projects"]} toggle={menuRef} />
 
       <div id="nav-toggle" ref={toggleRef}>
         <i
