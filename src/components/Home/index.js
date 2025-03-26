@@ -7,8 +7,7 @@ const Home = () => {
       <div className="home-data">
         <h1 className="home-title">
           Hi, I'm <span className="home-title-color">Ben</span>, <br />
-          a Full Stack <br />
-          Web Developer
+          a Software Engineer
         </h1>
 
         <a
